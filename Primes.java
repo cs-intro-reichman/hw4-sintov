@@ -26,7 +26,7 @@ public class Primes {
             currentLocation = primeCheck;
         }
         double perPrime = ((double)countPrimes/(double)n)*100.0;
-        System.out.println("There are " + countPrimes + " prime numbers between 2 and " + n + " (" + (int)perPrime + "% are primes)");
+        System.out.println("There are " + countPrimes + " primes between 2 and " + n + " (" + (int)perPrime + "% are primes)");
         
         // Replace this statement with your code
     }

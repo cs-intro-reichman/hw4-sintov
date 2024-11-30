@@ -10,7 +10,7 @@ public class Primes {
         int primeCheck = 2;
         int currentLocation = 2;
         int countPrimes = 0;
-        System.out.println("prime numbers up to " + n + ":");
+        System.out.println("Prime numbers up to " + n + ":");
         while (primeCheck < findPrime.length){
             if (findPrime[primeCheck]) {
                 System.out.println(primeCheck);
